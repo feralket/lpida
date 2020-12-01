@@ -14,7 +14,7 @@ const DashboardNav = () => {
         //         </ul>
         //     </div>
         // </nav>
-        <nav>
+        <nav className="grey darken-4">
             <ul className="container">
                 <li><NavLink to='/'>About</NavLink></li>
                 <li><NavLink to='/'>Product</NavLink></li>
