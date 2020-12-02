@@ -1,25 +1,24 @@
-import { render } from '@testing-library/react';
 import React from 'react'
-
-const FootStyle = {    
-
-}
 
 const Footer = () => {
     return(
-        
-        <div className="page-footer black" style={FootStyle}>
+        <div className="page-footer black" >
             <div className="container">
                 <div className="row">
-                    <div className="col s8 m4">
-                        <h9>Contact</h9>
-                        <p>+65 9827 1830</p>
+                    <div className="col s8 m3">
+                        <h9>Contact us</h9>
+                        <div className="divider"></div>
+                        <div className="section">
+                            <span>+65 9827 1830</span>
+                        </div>
                     </div>
-                    <div className="col s4 m2 offset-m6 right-align">
-                        <h9>Social media</h9>
-                        <br></br>
-                        <img src="/icons/ig_icon.png" alt="" height="12" width="12"/>
-                        <span>  lpida.Official</span>
+                    <div className="col s4 m2 offset-m7 right-align">
+                        <h9>Follow us</h9>
+                        <div className="divider"></div>
+                        <div className="section">
+                            <img src="/icons/ig_icon.png" alt="" height="12" width="12"/>
+                            <a href="https://www.instagram.com/lpidaofficial/"><span>  lpida.Official</span></a>
+                        </div>
                         
                     </div>
                 </div>

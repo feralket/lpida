@@ -20,3 +20,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h2 {
+  font-family: 'Maven Pro', sans-serif;
+}
+
+#root > .navbar-material .nav-wrapper .brand-logo img {
+  height: 64px;
+}

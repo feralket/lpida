@@ -7,7 +7,7 @@ const PromoDashboard = () => {
             <div className="col s12 m12 ">
                 <div className="card">
                     <div className="card-image">
-                        <img src="/images/demo_pic.jpg" alt=""/>
+                        <img src="/images/background.jpg" alt="" className="responsive-img"/>
                     </div>
                 </div>
             </div>
