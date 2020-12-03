@@ -7,10 +7,10 @@ function Products() {
             <h2>our styles</h2>
             <div className="divider"></div>
             <div className="row">
-                <ProductSummary />
-                <ProductSummary />
-                <ProductSummary />
-                <ProductSummary />          
+                <ProductSummary product="/images/design_white_front.png" productName="Prometheus"/>
+                <ProductSummary product="/images/design_black_front.png" productName="Prometheus"/>
+                <ProductSummary product="/images/simple_design_white_front.png" productName="Minimal"/>
+                <ProductSummary product="/images/simple_design_black_front.png" productName="Minimal"/>
             </div>
         </div>
     )
