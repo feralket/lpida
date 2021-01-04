@@ -7,7 +7,7 @@ function About() {
                 <img className="responsive-img" src="/icons/low_qualitiy_logo_invert.jpg" alt=""/>
                 <div className="card z-depth-1">
                     <div className="card-content">
-                        <p>Beyond Hope</p>
+                        <p>Beyond Hope sdkjafhasdlkjfhalksjdh</p>
                     </div>
                 </div>
             </div>
