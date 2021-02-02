@@ -24,7 +24,7 @@ export class NavBar extends Component {
                 <div className="navbar-fixed">
                     <nav className="nav-wrapper black z-depth-2 ">
                         <div className="container"> 
-                            <NavLink to='/' className="brand-logo left hide-on-med-and-down"><img src="/icons/logo_nav.png" alt="" style={navHome}/></NavLink>
+                            <NavLink to='/' className="brand-logo left hide-on-med-and-down"><img src="/icons/lpida logo final.png" alt="" height="64" width="90"/></NavLink>
                             <NavLink to='/' className="brand-logo hide-on-med-and-up"><img src="/icons/logo_nav.png" alt="" style={navHome}/></NavLink>     
                             <a href="#" data-target="mobile-demo" className="sidenav-trigger right show-on-small">
                                 <i className="material-icons ">menu</i>
@@ -32,7 +32,6 @@ export class NavBar extends Component {
                             <ul className="right hide-on-small-only">    
                                 <div className="right">
                                         <li><NavLink to='/products'>Products</NavLink></li>
-                                        <li><NavLink to='/pictures'>Pictures</NavLink></li> 
                                         <li><NavLink to='/about'>About</NavLink></li>
                                 </div>
                             </ul>                         
@@ -44,7 +43,6 @@ export class NavBar extends Component {
             <div>
                 <ul class="sidenav" id="mobile-demo">
                     <li><a href="/products">Products</a></li>
-                    <li><a href="/pictures">Pictures</a></li>
                     <li><a href="/about">About</a></li>
                 </ul> 
 
